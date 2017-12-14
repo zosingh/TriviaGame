@@ -1,0 +1,40 @@
+body {
+   background-image: url("../images/nbaanimated.gif");
+}
+
+.btn-primary,.reset{
+	background-color: #313477;
+	color: white;
+	padding: 30px;
+	margin-bottom: 100px;
+}
+
+.container{
+	margin-top: 50px;
+	text-align: center;
+	font-weight: bold;
+	height: 100%;
+	width: 700px;
+}
+
+h2, #message, #finalMessage{
+	font-family: Times New Roman;
+}
+
+.thisChoice:hover{
+	background-color: #202364;
+	color: white;
+	padding: 10px;
+}
+
+#gif{
+	margin: 30px;
+}
+
+@media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+}
